@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("../node_modules/bootstrap/dist/css/bootstrap.min.css");
+
+body {
+  font-family: "Inknut Antiqua", serif; /* Default font */
+}
+
+.navbar_header {
+  background: rgb(235, 153, 222);
+  background: linear-gradient(
+    90deg,
+    rgba(235, 153, 222, 0.76) 0%,
+    rgba(135, 79, 126, 0.96) 100%
+  );
+}
+
+.home_bg {
+  background: rgb(242, 147, 227);
+  background: linear-gradient(
+    90deg,
+    rgba(242, 147, 227, 0.47) 100%,
+    rgba(140, 85, 131, 0.74) 100%
+  );
+}
+
+.common_colour {
+  color: #5a3378;
+  text-shadow: 2px 2px #e30fdb;
+}
+
+.button_shadow {
+  color: #5a3378;
+  text-shadow: 2px 2px #000000;
+}
+
+.transparent-card {
+  background-color: #6489cd;
+  opacity: 0.8; /* 70% opacity for the entire card including text */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.register_bg {
+  background: linear-gradient(
+      90deg,
+      rgba(0, 230, 176, 1) 9%,
+      rgba(2, 173, 195, 1) 98%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(71, 124, 139, 1) 10%,
+      rgba(4, 175, 246, 1) 45%,
+      rgba(11, 89, 111, 1) 84%
+    );
+}
+
+.registration-card {
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}

@@ -1,0 +1,57 @@
+.form-container {
+    background-color: #fff;
+    padding: 30px;
+    width: 400px;
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #1a9cb7;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    color: #1a9cb7;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 2px solid #1a9cb7;
+    outline: none;
+}
+
+.form-group .password-eye {
+    position: relative;
+}
+
+.form-group .password-eye img {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 20px;
+}
+
+.btn-register {
+    background-color: #1a9cb7;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20px;
+}
